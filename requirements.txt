@@ -1,7 +1,12 @@
-streamlit>=1.32
+streamlit>=1.35
+pandas>=2.2
+openpyxl>=3.1.2         # per .xlsx
+xlrd==1.2.0             # per .xls (le versioni >2 non leggono più .xls)
+pyxlsb>=1.0.10          # per .xlsb (se ti serve)
+odfpy>=1.4.1            # per .ods (se ti serve)
 numpy>=2.0
 scipy>=1.14
-pandas>=2.2
+plotly>=5.20
 scikit-learn>=1.4
 statsmodels>=0.14
-plotly>=5.20
+
